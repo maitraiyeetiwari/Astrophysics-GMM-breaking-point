@@ -1,5 +1,5 @@
 # Astrophysics-GMM-breaking-point
-Here, I identified the first breaking point when plotting n_output vs n_input. n_input = number of input clusters for the Gaussian Mixture Model (GMM) and n_output = number of output clusters identified by GMM.
+Here, I identified the first breaking point when plotting n_output vs n_input. n_input = number of input clusters for the Gaussian Mixture Model (GMM: https://drum.lib.umd.edu/items/de21983a-66ca-45d5-ac36-aa775d099136) and n_output = number of output clusters identified by GMM.
 
 The first breaking point mathematically is where d(n_output)/d(n_input) has its first minima. 
 
