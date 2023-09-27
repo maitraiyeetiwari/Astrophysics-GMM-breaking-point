@@ -1,14 +1,17 @@
-# Astrophysics-output_vs_input
+# Astrophysics-GMM-breaking-point
 Here, I identified the first breaking point when plotting n_output vs n_input. n_input = number of input clusters for the Gaussian Mixture Model (GMM) and n_output = number of output clusters identified by GMM.
+
+The first breaking point mathematically is where d(n_output)/d(n_input) has its first minima. 
+
+Both n_output vs input and d(n_output)/d(n_input) vs n_input plots are shown below. 
 
 # Code and resources
 Python version: 3.9.9
 Packages: matplotlib
 # Model Building
-I have used the 
+I used lists of n_output and n_input for three astrophysical sources (RCW49, RCW120 and NGC1977) to make the plots. The python scripts are atached. 
 
-I have used fits files of CII, 8micron and 870 micron images (in same resolution) to make an rgb fits file using make-rgb.py script. Then I plot this image displaying interesting regions (white boxes) and stars (pink) in RCW49, which is bright star-forming region in our Galaxy. 
 # Note
-I am not adding the CII, 8micron and 870 micron fits files because of their large sizes but the python scripts are attached.  
+  
 # Image
-![rgb-regs-stars](https://user-images.githubusercontent.com/109150738/179974857-2317804a-d1f9-4cbd-890c-b2510551abd3.png)
+
